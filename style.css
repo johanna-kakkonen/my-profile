@@ -1,0 +1,97 @@
+body {
+	background-color: #FAF8F6;
+	color: #3F3E3E;
+	font-family: "Lora", serif;
+	line-height: 17px;
+}
+
+h1, h2, h3 {
+	font-family: "Poppins", sans-serif;
+	color: #3F3E3E;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a {
+	color: #93A685;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #3F3E3E;
+}
+
+/* class design */
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 350px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-green {
+	background-color: #93A685;
+	color: #3F3E3E;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: 1px solid #3F3E3E;
+}
+
+.btn-green:hover {
+	background-color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+
+/* id design */
+
+#introduction p {
+	margin-bottom: 30px;
+}
